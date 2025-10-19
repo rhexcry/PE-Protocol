@@ -1,0 +1,16 @@
+{
+    "config": {
+        "disable-tls": true
+    },
+    "name": "rhexcry/pe-protocol",
+    "description": "An implementation of the Minecraft: Pocket Edition protocol",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "rhexcry\\pe\\protocol\\": "src/"
+        }
+    }
+}
